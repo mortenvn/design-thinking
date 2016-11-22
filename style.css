@@ -69,36 +69,22 @@ body {
   width: 100px;
   height: 100px;
   margin-bottom: 15px;
-  transition: background 0.1s;
-  background-size: 100% 100%;
+  background-size: 100% 200%;
 }
 
-.card #forum { background-image: url('img/forum.png'); }
-.card:hover #forum { background-image: url('img/forum-hover.png'); }
+.card:hover .image {
+  background-position: bottom;
+}
 
-.card #transport { background-image: url('img/transport.png'); }
-.card:hover #transport { background-image: url('img/transport-hover.png'); }
-
-.card #culture { background-image: url('img/culture.png'); }
-.card:hover #culture { background-image: url('img/culture-hover.png'); }
-
-.card #learn-norwegian { background-image: url('img/learn-norwegian.png'); }
-.card:hover #learn-norwegian { background-image: url('img/learn-norwegian-hover.png'); }
-
-.card #jobs { background-image: url('img/jobs.png'); }
-.card:hover #jobs { background-image: url('img/jobs-hover.png'); }
-
-.card #activities { background-image: url('img/activities.png'); }
-.card:hover #activities { background-image: url('img/activities-hover.png'); }
-
-.card #health { background-image: url('img/health.png'); }
-.card:hover #health { background-image: url('img/health-hover.png'); }
-
-.card #save-money { background-image: url('img/save-money.png'); }
-.card:hover #save-money { background-image: url('img/save-money-hover.png'); }
-
-.card #approval { background-image: url('img/approval.png'); }
-.card:hover #approval { background-image: url('img/approval-hover.png'); }
+.card #forum {           background-image: url('img/forum-sprite.png'); }
+.card #transport {       background-image: url('img/transport-sprite.png'); }
+.card #culture {         background-image: url('img/culture-sprite.png'); }
+.card #learn-norwegian { background-image: url('img/learn-norwegian-sprite.png'); }
+.card #jobs {            background-image: url('img/jobs-sprite.png'); }
+.card #activities {      background-image: url('img/activities-sprite.png'); }
+.card #health {          background-image: url('img/health-sprite.png'); }
+.card #save-money {      background-image: url('img/save-money-sprite.png'); }
+.card #approval {        background-image: url('img/approval-sprite.png'); }
 
 
 
