@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Nunito:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="alert" id="js-alert">
+    <div class="alert-content">
+      <p><i class="fa fa-globe" aria-hidden="true"></i> Maalesef! Bu sayfa henüz çevrilmedi.</p>
+      <Button class="button"><i class="fa fa-pencil" aria-hidden="true"></i> Çevir?</Button>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="cards">
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="forum"></div>
+          <h2 class="headline">Forum</h2>
+          <h3 class="tagline">Prat med folk</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="transport"></div>
+          <h2 class="headline">Transport</h2>
+          <h3 class="tagline">Tog, trikk og romskip</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="culture"></div>
+          <h2 class="headline">Norsk kultur</h2>
+          <h3 class="tagline">Lusekoftekurs mm.</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="learn-norwegian"></div>
+          <h2 class="headline">Lær norsk</h2>
+          <h3 class="tagline">Æ... Ø... Å... </h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="jobs"></div>
+          <h2 class="headline">Jobb</h2>
+          <h3 class="tagline">Ledige stillinger</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="activities"></div>
+          <h2 class="headline">Aktiviteter</h2>
+          <h3 class="tagline">Ting å gjøre</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="health"></div>
+          <h2 class="headline">Helse</h2>
+          <h3 class="tagline">Norges helsetilbud</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="save-money.html" class="card">
+          <div class="image" id="save-money"></div>
+          <h2 class="headline">Spar penger</h2>
+          <h3 class="tagline">$$$</h3>
+        </a>
+      </div>
+      <div class="card-wrap">
+        <a href="" class="card">
+          <div class="image" id="approval"></div>
+          <h2 class="headline">Oppholdstillatelse</h2>
+          <h3 class="tagline">Hva er du i prosessen?</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Language Modal -->
+  <div id="js-language-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">x</span>
+      <h1 class="language-header">Choose language</h1>
+      <input type="text" placeholder="Search" class="language-search">
+      <div class="languages">
+        <div class="language">
+          <img class="flag" src="img/flags/af.svg" alt="">
+          <p class="name">پارسی</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/eg.svg" alt="">
+          <p class="name">العربية</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/er.svg" alt="">
+          <p class="name">ትግርኛ</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/ph.svg" alt="">
+          <p class="name">Wikang Filipino</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/in.svg" alt="">
+          <p class="name">हिन्दी</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/ir.svg" alt="">
+          <p class="name">پارسی</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/iq.svg" alt="">
+          <p class="name">پارسی</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/lt.svg" alt="">
+          <p class="name">Lietuvių kalba</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/no.svg" alt="">
+          <p class="name">Norsk</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/ru.svg" alt="">
+          <p class="name">русский</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/pk.svg" alt="">
+          <p class="name">اُردُو</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/so.svg" alt="">
+          <p class="name">پارسی</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/sy.svg" alt="">
+          <p class="name">پارسی</p>
+        </div>
+        <div class="language">
+          <img class="flag" src="img/flags/th.svg" alt="">
+          <p class="name">ภาษาไทย</p>
+        </div>
+        <div class="language" id="js-turkish-language">
+          <img class="flag" src="img/flags/tr.svg" alt="">
+          <p class="name">Türkçe</p>
+        </div>
+        <div class="language" id="js-english-language">
+          <img class="flag" src="img/flags/us.svg" alt="">
+          <p class="name">English</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="main.js">n</script>
+</body>
+</html>
