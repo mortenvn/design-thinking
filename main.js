@@ -7,12 +7,12 @@ $(function() {
     $('#js-alert').show();
   }
 
-  $('#js-english-language').click(function () {
-    closeModal();
-  });
-
   $('#js-turkish-language').click(function () {
     closeModal();
     displayTurkishAlert();
+  });
+
+  $('#js-norwegian-language').click(function () {
+    closeModal();
   });
 });

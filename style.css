@@ -12,9 +12,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .wrap {
   width: 800px;
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 .cards {
@@ -27,12 +31,13 @@ body {
 .card-wrap {
   width: 33.3333%;
   padding: 0 7.5px 15px 7.5px;
+  display: flex;
 }
 
 .card {
   background-color: white;
   width: 245px;
-  padding: 30px;
+  padding: 30px 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   cursor: pointer;
@@ -63,6 +68,7 @@ body {
   color: #aaa;
   font-size: 18px;
   font-weight: 300;
+  text-align: center;
 }
 
 .image {
@@ -76,6 +82,7 @@ body {
   background-position: bottom;
 }
 
+/* frontpage */
 .card #forum {           background-image: url('img/forum-sprite.png'); }
 .card #transport {       background-image: url('img/transport-sprite.png'); }
 .card #culture {         background-image: url('img/culture-sprite.png'); }
@@ -85,6 +92,14 @@ body {
 .card #health {          background-image: url('img/health-sprite.png'); }
 .card #save-money {      background-image: url('img/save-money-sprite.png'); }
 .card #approval {        background-image: url('img/approval-sprite.png'); }
+
+/* save money */
+.card #free-clothes {    background-image: url('img/free-clothes-sprite.png'); }
+.card #shopping-sweden {    background-image: url('img/shopping-sweden-sprite.png'); }
+.card #rent-stuff {    background-image: url('img/rent-stuff-sprite.png'); }
+.card #free-stuff {    background-image: url('img/free-stuff-sprite.png'); }
+.card #food-discounts {    background-image: url('img/food-discounts-sprite.png'); }
+.card #dumpster-diving {    background-image: url('img/dumpster-diving-sprite.png'); }
 
 
 
@@ -191,9 +206,8 @@ body {
 
 /* ALERT */
 .alert {
-  background-color: #fff6f6;
-  color: #9F3A38;
-  border-bottom: 1px solid #9F3A38;
+  background-color: #9F3A38;
+  color: white;
   display: none;
 }
 
@@ -228,5 +242,60 @@ body {
     text-shadow: none;
     font-weight: normal;
     color: white;
-    background-color: #9F3A38;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.site-header {
+  text-align: center;
+  font-weight: 300;
+}
+
+hr {
+  margin: 10px 15px;
+}
+
+.article-wrap {
+  max-width: 500px;
+  width: auto;
+}
+
+.article-content {
+  padding: 0 15px;
+}
+
+.article-image {
+  display: block;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+a {
+  color: #2793C7;
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 20px;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 1em;
 }
