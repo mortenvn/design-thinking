@@ -101,7 +101,8 @@ img {
 .card #food-discounts {    background-image: url('img/food-discounts-sprite.png'); }
 .card #dumpster-diving {    background-image: url('img/dumpster-diving-sprite.png'); }
 
-
+/* jobs */
+.card #cv {    background-image: url('img/cv-sprite.png'); }
 
 /* MODAL */
 .modal {
@@ -292,10 +293,10 @@ p {
 .panel {
   background-color: white;
   border-radius: 5px;
-  border: 1px solid #bbb;
   padding: 15px;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
   margin-bottom: 1em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
