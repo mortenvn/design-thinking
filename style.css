@@ -103,6 +103,10 @@ img {
 
 /* jobs */
 .card #cv {    background-image: url('img/cv-sprite.png'); }
+.card #finding-job {    background-image: url('img/finding-job-sprite.png'); }
+.card #job-listings {    background-image: url('img/job-listings-sprite.png'); }
+.card #start-business {    background-image: url('img/start-business-sprite.png'); }
+.card #small-jobs {    background-image: url('img/small-jobs-sprite.png'); }
 
 /* MODAL */
 .modal {
@@ -187,6 +191,10 @@ img {
   height: 25px;
   margin-right: 5px;
   border-radius: 3px;
+}
+
+.language .name {
+  margin: 0;
 }
 
 .language-header {

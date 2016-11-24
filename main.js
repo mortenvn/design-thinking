@@ -15,4 +15,8 @@ $(function() {
   $('#js-norwegian-language').click(function () {
     closeModal();
   });
+
+  $('#js-close-modal').click(function () {
+    closeModal();
+  });
 });
